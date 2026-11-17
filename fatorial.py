@@ -1,0 +1,6 @@
+def fatorial(n):
+    if n == 0:
+        return 1
+    return n * fatorial(n - 1)
+n = int(input("Digite um número: "))
+print(f"fatorial de {n} é: {fatorial(n)}")
